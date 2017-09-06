@@ -20,10 +20,10 @@ executable dual
   main-is:             dual.hs
   -- other-modules:       
   -- other-extensions:    
-  build-depends:       base >=4.9 && <4.11 ,
+  build-depends:       base >=4.7 && <4.11 ,
                        websockets >=0.9 && <0.13 ,
                        cereal >=0.5 && <0.6,
-                       gloss >=1.10 && <1.12 ,
+                       gloss >=1.9 && <1.12 ,
                        bifunctors >=5.2 && <5.5,
                        network >=2.6 && <2.7
   -- hs-source-dirs:      
