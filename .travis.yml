@@ -1,6 +1,6 @@
 language: c
 
-sudo: false
+sudo: true
 
 cache:
   directories:
@@ -19,6 +19,8 @@ matrix:
       addons: {apt: {packages: [cabal-install-1.24,ghc-8.2.1], sources: [hvr-ghc]}}
 
 before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y freeglut3-dev
   - export PATH=/opt/ghc/$GHCVER/bin:/opt/cabal/$CABALVER/bin:$PATH
 
 install:
