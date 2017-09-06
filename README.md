@@ -1,5 +1,7 @@
 # dual
 
+[![Build Status](https://travis-ci.org/fgaz/dual.svg?branch=master)](https://travis-ci.org/fgaz/dual)
+
 A simplified clone of the "dual" game for Android.
 
 ## Usage
