@@ -60,10 +60,14 @@ fromRight _ = error "deserialization error. sorry :("
 instance WebSocketsData Message where
   fromLazyByteString = fromRight . decodeLazy
   toLazyByteString = encodeLazy
+  fromDataMessage (Binary bs) = fromLazyByteString bs
+  fromDataMessage _ = error "Invalid websocket message"
 
 instance WebSocketsData Bullet where
   fromLazyByteString = fromRight . decodeLazy
   toLazyByteString = encodeLazy
+  fromDataMessage (Binary bs) = fromLazyByteString bs
+  fromDataMessage _ = error "Invalid websocket message"
 
 maxAmmo = 6
 chargingSpeed = 2
