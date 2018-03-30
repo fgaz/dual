@@ -10,7 +10,7 @@ maintainer:          francygazz@gmail.com
 -- copyright:           
 category:            Game
 build-type:          Simple
-extra-source-files:  README
+extra-source-files:  README.md
 cabal-version:       >=1.10
 
 executable dual
