@@ -30,4 +30,5 @@ install:
 
 script:
  - cabal new-build
+ - cabal sdist # no new-sdist yet :(
 
