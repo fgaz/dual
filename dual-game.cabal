@@ -1,5 +1,5 @@
 name:                dual-game
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Network multiplayer 2D shooting game
 description:         Network multiplayer 2D shooting game inspired from "dual"
                      for Andriod.
@@ -13,7 +13,7 @@ maintainer:          francygazz@gmail.com
 -- copyright:           
 category:            Game
 build-type:          Simple
-extra-source-files:  README.md
+extra-source-files:  README.md, screenshot.png
 cabal-version:       >=1.10
 
 executable dual
