@@ -1,7 +1,10 @@
 name:                dual-game
 version:             0.1.0.0
-synopsis:            Network multiplayer shooting game inspired (well... copied) from dual for android
--- description:         
+synopsis:            Network multiplayer 2D shooting game
+description:         Network multiplayer 2D shooting game inspired from "dual"
+                     for Andriod.
+                     Start the server with `dual <port>`
+                     and the client with `dual <server ip> <server port>`
 homepage:            https://github.com/fgaz/dual
 license:             MIT
 license-file:        LICENSE
