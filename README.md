@@ -4,6 +4,14 @@
 
 A simplified clone of the "dual" game for Android.
 
+## Requirements
+
+You'll need the `freeglut` library. On ubuntu:
+
+```
+sudo apt-get install freeglut3-dev
+```
+
 ## Usage
 
 * start the server `dual <port>`
