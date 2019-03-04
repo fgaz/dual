@@ -9,7 +9,7 @@ homepage:            https://github.com/fgaz/dual
 license:             MIT
 license-file:        LICENSE
 author:              Francesco Gazzetta
-maintainer:          francygazz@gmail.com
+maintainer:          Francesco Gazzetta <fgaz@fgaz.me>
 -- copyright:           
 category:            Game
 build-type:          Simple
