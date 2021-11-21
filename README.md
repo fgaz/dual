@@ -2,7 +2,7 @@
 
 [![Hackage](https://img.shields.io/hackage/v/dual-game.svg)](https://hackage.haskell.org/package/dual-game)
 [![Hackage CI](https://matrix.hackage.haskell.org/api/v2/packages/dual-game/badge)](https://matrix.hackage.haskell.org/package/dual-game)
-[![Build Status](https://travis-ci.org/fgaz/dual.svg?branch=master)](https://travis-ci.org/fgaz/dual)
+[![builds.sr.ht status](https://builds.sr.ht/~fgaz/dual/commits.svg)](https://builds.sr.ht/~fgaz/dual/commits?)
 
 A simplified clone of the "dual" game for Android.
 
